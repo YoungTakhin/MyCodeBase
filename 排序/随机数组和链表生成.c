@@ -10,9 +10,9 @@
 #define LENGTH 100
 #define LIMIT 100
 
+  /*初始化*/
 int array[LENGTH]; //定义数组
-
-typedef struct Node{
+typedef struct Node {
 	int data; //数据域
 	struct Node* next; //指针域
 }List; //定义链表结点
@@ -28,18 +28,22 @@ int* generationArray() {
 		array[i] = rand() % LIMIT; //产生随机数
 	} //for
 
-	/*打印数组*/
-	printf("数组：\n");
+	return array;
+} //generationArray
+
+/*打印数组*/
+void printfArray() {
+	printf("\n数组：\n");
 	for (int i = 0; i < LENGTH; i++) {
 		printf("%d\t", array[i]);
 	} //for
-	return array;
-} //generationArray
+
+	printf("\n");
+} //printfArray
 
 /*生成链表*/
 List* generationList() {
 	/*随机产生长度为LENGTH，数据域范围在0~LIMIT的链表*/
-	printf("\n\n链表：\n");
 	for (int i = 0; i < LENGTH; i++) {
 		list = (List*)malloc(sizeof(List));
 		list->data = rand() % LIMIT; //产生随机数
@@ -53,22 +57,29 @@ List* generationList() {
 		Tail = list;
 	} //for
 
-	/*遍历并打印链表*/
+	return list;
+} //generationList
+
+/*遍历并打印链表*/
+void printfList() {
+	printf("\n链表：\n");
 	p = Head;
 	while (p != NULL) {
 		printf("%d\t", p->data);
 		p = p->next;
 	} //while
-	free(list); //释放内存
+
 	printf("\n");
-	return list;
-} //generationList
+} //printfList
 
 /*主函数*/
 int main() {
 	srand((unsigned int)time(NULL)); //设置随机数种子
-	generationArray();
-	generationList();
+	generationArray(); //生成数组
+	printfArray(); //打印数组
+	generationList(); //生成链表
+	printfList(); //遍历并打印链表
+	free(list); //释放内存
 	system("PAUSE");
 	return 0;
 } //main
