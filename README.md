@@ -6,7 +6,7 @@
 <th rowspan="2">名称</th>
 <th rowspan="2">数据对象</th>
 <th rowspan="2">稳定性</th>
-<th colspan="2">时间复杂度</th>
+<th colspan="4">时间复杂度</th>
 <th rowspan="2">额外空间复杂度</th>
 <th rowspan="2">描述</th>
 </tr>
