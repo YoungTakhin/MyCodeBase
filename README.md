@@ -10,7 +10,6 @@
 <th rowspan="2">额外空间复杂度</th>
 <th rowspan="2">描述</th>
 </tr>
-<tr>稳定</tr>
 <tr>
 <th>平均</th>
 <th>最坏</th>
