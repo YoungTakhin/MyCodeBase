@@ -135,7 +135,7 @@
 <tr>
 <td><a href="/wiki/%E8%AE%A1%E6%95%B0%E6%8E%92%E5%BA%8F" title="计数排序">计数排序</a></td>
 <td>数组、链表</td>
-<td><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Yes_check.svg/15px-Yes_check.svg.png" width="15" height="15" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Yes_check.svg/23px-Yes_check.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Yes_check.svg/30px-Yes_check.svg.png 2x" data-file-width="600" data-file-height="600" /></td>
+<td>不稳定</td>
 <td colspan="2"><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle O(n+m)}">
 
 </math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/5d103b38ce2abfde793118c89cd4fac5c956b89d" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.838ex; width:9.858ex; height:2.843ex;" alt="O(n+m)" /></span></td>
