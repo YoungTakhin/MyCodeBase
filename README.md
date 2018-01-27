@@ -6,7 +6,7 @@
 <th rowspan="2">名称</th>
 <th rowspan="2">数据对象</th>
 <th rowspan="2">稳定性</th>
-<th colspan="4">时间复杂度</th>
+<th colspan="2">时间复杂度</th>
 <th rowspan="2">额外空间复杂度</th>
 <th rowspan="2">描述</th>
 </tr>
@@ -18,7 +18,7 @@
 <td><a href="/wiki/%E6%B0%A3%E6%B3%A1%E6%8E%92%E5%BA%8F" class="mw-redirect" title="冒泡排序">冒泡排序</a></td>
 <td>数组</td>
 <td>稳定</td>
-<td colspan="4"><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle O(n^{2})}">
+<td colspan="2"><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle O(n^{2})}">
 
 </math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/6cd9594a16cb898b8f2a2dff9227a385ec183392" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.838ex; width:6.032ex; height:3.176ex;" alt="O(n^{2})" /></span></td>
 <td><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle O(1)}">
@@ -30,7 +30,7 @@
 <tr>
 <td rowspan="2"><a href="/wiki/%E9%80%89%E6%8B%A9%E6%8E%92%E5%BA%8F" title="选择排序">选择排序</a></td>
 <td>数组</td>
-<td><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a2/X_mark.svg/15px-X_mark.svg.png" width="15" height="17" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/a2/X_mark.svg/23px-X_mark.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/a2/X_mark.svg/30px-X_mark.svg.png 2x" data-file-width="525" data-file-height="600" /></td>
+<td>不稳定</td>
 <td colspan="2" rowspan="2"><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle O(n^{2})}">
 
 </math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/6cd9594a16cb898b8f2a2dff9227a385ec183392" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.838ex; width:6.032ex; height:3.176ex;" alt="O(n^{2})" /></span></td>
