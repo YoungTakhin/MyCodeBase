@@ -42,12 +42,12 @@
 </tr>
 <tr>
 <td>链表</td>
-<td><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Yes_check.svg/15px-Yes_check.svg.png" width="15" height="15" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Yes_check.svg/23px-Yes_check.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Yes_check.svg/30px-Yes_check.svg.png 2x" data-file-width="600" data-file-height="600" /></td>
+<td>稳定</td>
 </tr>
 <tr>
 <td><a href="/wiki/%E6%8F%92%E5%85%A5%E6%8E%92%E5%BA%8F" title="插入排序">插入排序</a></td>
 <td>数组、链表</td>
-<td><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Yes_check.svg/15px-Yes_check.svg.png" width="15" height="15" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Yes_check.svg/23px-Yes_check.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Yes_check.svg/30px-Yes_check.svg.png 2x" data-file-width="600" data-file-height="600" /></td>
+<td>稳定</td>
 <td colspan="2"><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle O(n^{2})}">
 
 </math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/6cd9594a16cb898b8f2a2dff9227a385ec183392" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.838ex; width:6.032ex; height:3.176ex;" alt="O(n^{2})" /></span></td>
@@ -73,7 +73,7 @@
 <tr>
 <td rowspan="3"><a href="/wiki/%E5%BD%92%E5%B9%B6%E6%8E%92%E5%BA%8F" title="归并排序">归并排序</a></td>
 <td rowspan="2">数组</td>
-<td rowspan="3"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Yes_check.svg/15px-Yes_check.svg.png" width="15" height="15" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Yes_check.svg/23px-Yes_check.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Yes_check.svg/30px-Yes_check.svg.png 2x" data-file-width="600" data-file-height="600" /></td>
+<td rowspan="3">稳定</td>
 <td colspan="2"><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle O(n\log ^{2}n)}">
 
 </math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/48c36489701bc8023db2f8d6bc809b14a7f8dd4e" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.838ex; width:11.172ex; height:3.176ex;" alt="{\displaystyle O(n\log ^{2}n)}" /></span></td>
@@ -135,7 +135,7 @@
 <tr>
 <td><a href="/wiki/%E8%AE%A1%E6%95%B0%E6%8E%92%E5%BA%8F" title="计数排序">计数排序</a></td>
 <td>数组、链表</td>
-<td>不稳定</td>
+<td>稳定</td>
 <td colspan="2"><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle O(n+m)}">
 
 </math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/5d103b38ce2abfde793118c89cd4fac5c956b89d" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.838ex; width:9.858ex; height:2.843ex;" alt="O(n+m)" /></span></td>
@@ -147,7 +147,7 @@
 <tr>
 <td><a href="/wiki/%E6%A1%B6%E6%8E%92%E5%BA%8F" title="桶排序">桶排序</a></td>
 <td>数组、链表</td>
-<td><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Yes_check.svg/15px-Yes_check.svg.png" width="15" height="15" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Yes_check.svg/23px-Yes_check.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Yes_check.svg/30px-Yes_check.svg.png 2x" data-file-width="600" data-file-height="600" /></td>
+<td>稳定</td>
 <td colspan="2"><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle O(n)}">
 
 </math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/34109fe397fdcff370079185bfdb65826cb5565a" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.838ex; width:4.977ex; height:2.843ex;" alt="O(n)" /></span></td>
@@ -159,7 +159,7 @@
 <tr>
 <td><a href="/wiki/%E5%9F%BA%E6%95%B0%E6%8E%92%E5%BA%8F" title="基数排序">基数排序</a></td>
 <td>数组、链表</td>
-<td><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Yes_check.svg/15px-Yes_check.svg.png" width="15" height="15" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Yes_check.svg/23px-Yes_check.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Yes_check.svg/30px-Yes_check.svg.png 2x" data-file-width="600" data-file-height="600" /></td>
+<td>稳定</td>
 <td><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle O(k\times n)}">
 
 </math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/753ea58d397ba5729b620212cdeebe9601614737" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.838ex; width:9.029ex; height:2.843ex;" alt="O(k\times n)" /></span></td>
