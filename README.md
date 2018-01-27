@@ -1,7 +1,7 @@
 # MyCodeBase
 >  这里是各种算法的代码库，任何人可以在自己的任何程序中使用，欢迎大家指出代码中的错误以及有待改进的地方。
 ## 排序算法
-<table class="wikitable">
+<table class="myTable">
 <tr>
 <th rowspan="2">名称</th>
 <th rowspan="2">数据对象</th>
