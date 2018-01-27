@@ -60,7 +60,7 @@
 <tr>
 <td><a href="/wiki/%E5%A0%86%E6%8E%92%E5%BA%8F" title="堆排序">堆排序</a></td>
 <td>数组</td>
-<td>稳定 </td>
+<td>不稳定 </td>
 <td colspan="2"><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle O(n\log n)}">
 
 </math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/9d2320768fb54880ca4356e61f60eb02a3f9d9f1" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.838ex; width:10.118ex; height:2.843ex;" alt="O(n\log n)" /></span></td>
@@ -101,7 +101,7 @@
 <tr>
 <td><a href="/wiki/%E5%BF%AB%E9%80%9F%E6%8E%92%E5%BA%8F" title="快速排序">快速排序</a></td>
 <td>数组</td>
-<td>稳定</td>
+<td>不稳定</td>
 <td><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle O(n\log n)}">
 
 </math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/9d2320768fb54880ca4356e61f60eb02a3f9d9f1" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.838ex; width:10.118ex; height:2.843ex;" alt="O(n\log n)" /></span></td>
@@ -117,7 +117,7 @@
 <tr>
 <td><a href="/wiki/%E5%B8%8C%E5%B0%94%E6%8E%92%E5%BA%8F" title="希尔排序">希尔排序</a></td>
 <td>数组</td>
-<td>稳定</td>
+<td>不稳定</td>
 <td><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle O(n\log ^{2}n)}">
 
 </math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/48c36489701bc8023db2f8d6bc809b14a7f8dd4e" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.838ex; width:11.172ex; height:3.176ex;" alt="O(n\log ^{2}n)" /></span></td>
