@@ -129,9 +129,7 @@
 </math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/e66384bc40452c5452f33563fe0e27e803b0cc21" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.838ex; width:4.745ex; height:2.843ex;" alt="O(1)" /></span></td>
 <td>每一轮按照事先决定的间隔进行插入排序，间隔会依次缩小，最后一次一定要是1。</td>
 </tr>
-<tr>
-<td colspan="7"></td>
-</tr>
+
 <tr>
 <td><a href="/wiki/%E8%AE%A1%E6%95%B0%E6%8E%92%E5%BA%8F" title="计数排序">计数排序</a></td>
 <td>数组、链表</td>
