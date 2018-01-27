@@ -1,7 +1,6 @@
 # MyCodeBase
 >  这里是各种算法的代码库，任何人可以在自己的任何程序中使用，欢迎大家指出代码中的错误以及有待改进的地方。
 ## 排序算法
-<h2><span id=".E7.AE.80.E8.A6.81.E6.AF.94.E8.BE.83"></span><span class="mw-headline" id="简要比较">简要比较</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95&amp;action=edit&amp;section=7" title="编辑小节：简要比较">编辑</a><span class="mw-editsection-bracket">]</span></span></h2>
 <table class="wikitable">
 <tr>
 <th rowspan="2">名称</th>
@@ -21,34 +20,10 @@
 <td><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Yes_check.svg/15px-Yes_check.svg.png" width="15" height="15" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Yes_check.svg/23px-Yes_check.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Yes_check.svg/30px-Yes_check.svg.png 2x" data-file-width="600" data-file-height="600" /></td>
 <td colspan="2"><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle O(n^{2})}">
   <semantics>
-    <mrow class="MJX-TeXAtom-ORD">
-      <mstyle displaystyle="true" scriptlevel="0">
-        <mi>O</mi>
-        <mo stretchy="false">(</mo>
-        <msup>
-          <mi>n</mi>
-          <mrow class="MJX-TeXAtom-ORD">
-            <mn>2</mn>
-          </mrow>
-        </msup>
-        <mo stretchy="false">)</mo>
-      </mstyle>
-    </mrow>
-    <annotation encoding="application/x-tex">{\displaystyle O(n^{2})}</annotation>
   </semantics>
 </math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/6cd9594a16cb898b8f2a2dff9227a385ec183392" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.838ex; width:6.032ex; height:3.176ex;" alt="O(n^{2})" /></span></td>
 <td><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle O(1)}">
-  <semantics>
-    <mrow class="MJX-TeXAtom-ORD">
-      <mstyle displaystyle="true" scriptlevel="0">
-        <mi>O</mi>
-        <mo stretchy="false">(</mo>
-        <mn>1</mn>
-        <mo stretchy="false">)</mo>
-      </mstyle>
-    </mrow>
-    <annotation encoding="application/x-tex">{\displaystyle O(1)}</annotation>
-  </semantics>
+
 </math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/e66384bc40452c5452f33563fe0e27e803b0cc21" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.838ex; width:4.745ex; height:2.843ex;" alt="O(1)" /></span></td>
 <td>（无序区，有序区）。<br />
 从无序区通过交换找出最大元素放到有序区前端。</td>
@@ -58,35 +33,10 @@
 <td>数组</td>
 <td><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a2/X_mark.svg/15px-X_mark.svg.png" width="15" height="17" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/a2/X_mark.svg/23px-X_mark.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/a2/X_mark.svg/30px-X_mark.svg.png 2x" data-file-width="525" data-file-height="600" /></td>
 <td colspan="2" rowspan="2"><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle O(n^{2})}">
-  <semantics>
-    <mrow class="MJX-TeXAtom-ORD">
-      <mstyle displaystyle="true" scriptlevel="0">
-        <mi>O</mi>
-        <mo stretchy="false">(</mo>
-        <msup>
-          <mi>n</mi>
-          <mrow class="MJX-TeXAtom-ORD">
-            <mn>2</mn>
-          </mrow>
-        </msup>
-        <mo stretchy="false">)</mo>
-      </mstyle>
-    </mrow>
-    <annotation encoding="application/x-tex">{\displaystyle O(n^{2})}</annotation>
-  </semantics>
+
 </math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/6cd9594a16cb898b8f2a2dff9227a385ec183392" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.838ex; width:6.032ex; height:3.176ex;" alt="O(n^{2})" /></span></td>
 <td rowspan="2"><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML"  alttext="{\displaystyle O(1)}">
-  <semantics>
-    <mrow class="MJX-TeXAtom-ORD">
-      <mstyle displaystyle="true" scriptlevel="0">
-        <mi>O</mi>
-        <mo stretchy="false">(</mo>
-        <mn>1</mn>
-        <mo stretchy="false">)</mo>
-      </mstyle>
-    </mrow>
-    <annotation encoding="application/x-tex">{\displaystyle O(1)}</annotation>
-  </semantics>
+
 </math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/e66384bc40452c5452f33563fe0e27e803b0cc21" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.838ex; width:4.745ex; height:2.843ex;" alt="O(1)" /></span></td>
 <td rowspan="2">（有序区，无序区）。<br />
 在无序区里找一个最小的元素跟在有序区的后面。对数组：比较得多，换得少。</td>
