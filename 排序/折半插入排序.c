@@ -14,7 +14,7 @@ int array[LENGTH];
 
 /*使用随机数生成数组*/
 int* generationArray() {
-	int i; 
+	int i;
 	/*随机产生长度为LENGTH，数据范围在0~LIMIT的整形数组*/
 	for(i = 0; i < LENGTH; i++) {
 		array[i] = rand() % LIMIT; //产生随机数
@@ -67,11 +67,10 @@ void binSort(int* array) {
 /*主函数*/
 int main(int argc, char** argv) {
 	int i;
-	int* tempArray; //保存临时数组
 	
-	tempArray = generationArray();
+	generationArray();
 	
-	printf("源"); 
+	printf("源");
 	printfArray(); //打印数组
 	
 	binSort(array); //折半插入排序
