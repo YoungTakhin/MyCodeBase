@@ -6,8 +6,8 @@
 #include<stdio.h>
 #include<time.h>
 #include<stdlib.h>
-#define LENGTH 10 //数组长度
-#define LIMIT 100 //随机数范围
+#define LENGTH 100 //数组长度
+#define LIMIT 10000 //随机数范围
 
 /*初始化定义*/
 int array[LENGTH];
@@ -23,12 +23,12 @@ int* generationArray() {
 	return array;
 } //generationArray
 
-/*ð������*/
+/*冒泡排序*/
 int* bubbleSort(int* array) {
 	int temp;
 	int i;
 	int j; 
-	printf("�����");
+
 	for (i = 0; i < LENGTH - 1; i++) {
 		for (j = 0; j < LENGTH - 1 - i; j++) {
 			if (array[j] > array[j + 1]) {
@@ -84,7 +84,7 @@ int main(int argc, char** argv) {
 	printf("源");
 	printfArray(); //打印数组
 	
-	bubbleSort(array); //快速排序（递归） 
+	bubbleSort(array); //冒泡排序 
 	
 	printf("排序后");
 	printfArray(); //打印数组
