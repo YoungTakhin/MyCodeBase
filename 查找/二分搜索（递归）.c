@@ -6,8 +6,8 @@
 #include<stdio.h>
 #include<time.h>
 #include<stdlib.h>
-#define LENGTH 100 //数组长度
-#define LIMIT 10000 //随机数范围
+#define LENGTH 10 //数组长度
+#define LIMIT 100 //随机数范围
 
 /*初始化定义*/
 int array[LENGTH];
@@ -23,41 +23,24 @@ int* generationArray() {
 	return array;
 } //generationArray
 
-/*快速排序*/
-void quickSort(int* array, int start, int end) {
-	/*递归停止条件*/
-    if(start >= end) {
-        return;
-	} //if 
-	
-	int mid = array[end];
-    int low = start, high = end - 1;
+/*ð������*/
+int* bubbleSort(int* array) {
 	int temp;
-	
-    while(low < high) {
-        while(array[low] < mid && low < high) {
-            low++;
-		} //while
-        while(array[high] >= mid && low < high) {
-            high--;
-		} //while
-        temp = array[low];
-    	array[low] = array[high];
-    	array[high] = temp;
-    } //while
-    if(array[low] >= array[end]) {
-    	temp = array[low];
-    	array[low] = array[end];
-    	array[end] = temp;
-	} //if
-    else {
-    	low++;
-	} //else
-    if(low) {
-    	quickSort(array, start, low - 1);
-	} //if
-    quickSort(array, low + 1, end);
-} //quickSort
+	int i;
+	int j; 
+	printf("�����");
+	for (i = 0; i < LENGTH - 1; i++) {
+		for (j = 0; j < LENGTH - 1 - i; j++) {
+			if (array[j] > array[j + 1]) {
+				temp = array[j];
+				array[j] = array[j + 1];
+				array[j + 1] = temp;
+			} //if
+		} //for
+	} //for
+
+	return array;
+} //bubbleSort
 
 /*二分搜索（递归）*/
 int binSearch(const int* array, int low, int high, int key) {
@@ -101,7 +84,7 @@ int main(int argc, char** argv) {
 	printf("源");
 	printfArray(); //打印数组
 	
-	quickSort(array, 0, LENGTH - 1); //快速排序（递归） 
+	bubbleSort(array); //快速排序（递归） 
 	
 	printf("排序后");
 	printfArray(); //打印数组
