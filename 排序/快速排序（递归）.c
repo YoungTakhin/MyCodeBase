@@ -6,7 +6,7 @@
 #include<stdio.h>
 #include<time.h>
 #include<stdlib.h>
-#define LENGTH 10 //数组长度
+#define LENGTH 100 //数组长度
 #define LIMIT 1000 //随机数范围
 
 /*初始化定义*/
